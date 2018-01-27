@@ -2,6 +2,10 @@ var pool = require("./pool");
 
 //商品的类，提供商品数据服务
 class Cart {
+	
+	
+	
+	
     constructor(){}
     add({pid,uid},callback){
         pool.getConnection((err,connection)=>{
