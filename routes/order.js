@@ -7,6 +7,8 @@ var Order = require("../models/order")
 var myCart = new Cart()
 var myUser = new User()
 var myOrder = new Order()
+var a= 1;
+var bb=22;
 /* GET product api. */
 
 
